@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Contact from './Pages/Contact/Contact';
 import Hero from './Pages/Hero/Hero';
 import Header from './Pages/Home/Header';
 import Services from './Pages/Service/Services';
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Hero />
       <Testomonial />
+      <Contact />
     </div>
   );
 }
