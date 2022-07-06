@@ -35,7 +35,7 @@ const Services = () => {
                 <h2 className="">A broad range of courses</h2>
                 <p className="text-sm">Choose from 100+ online video courses with new additions published every month</p>
             </div>
-            <div className="container grid grid-cols-1 md:grid-cols-4 mt-20 mx-auto gap-4 mb-4 px-20 lg:px-0">
+            <div className="container grid grid-cols-1 md:grid-cols-4 mt-20 mx-auto gap-1 mb-4 px-20 lg:px-0">
             {
                 services.map(service=><Service
                 key={service.id}

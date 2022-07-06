@@ -4,6 +4,7 @@ import Hero from './Pages/Hero/Hero';
 import Header from './Pages/Home/Header';
 import Services from './Pages/Service/Services';
 import Navbar from './Pages/Shered/Navbar';
+import Testomonial from './Pages/Testomonial/Testomonial';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Services />
       <Hero />
+      <Testomonial />
     </div>
   );
 }
