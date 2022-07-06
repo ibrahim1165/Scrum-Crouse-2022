@@ -1,0 +1,181 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 30px;
+    height: 163px;
+    left: 140px;
+    top: 48px;
+}
+
+.logo-name {
+    width: 60px;
+    height: 31px;
+
+    font-family: 'Plus Jakarta Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.logo-title {
+    width: 300px;
+    height: 48px;
+
+    font-family: 'Plus Jakarta Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #8C8C8C;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 250px;
+    height: 153px;
+    left: 800px;
+    top: 48px;
+
+}
+
+.call{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 48px;
+    height: 48px;
+
+    /* Dark/Secondary */
+
+    background: #343538;
+    border-radius: 30px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.caption {
+    width: 94px;
+    height: 16px;
+
+    /* Caption 12 */
+
+    font-family: 'Plus Jakarta Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Dark/Text */
+
+    color: #8C8C8C;
+}
+
+.caption-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 48px;
+
+    /* Dark/Secondary */
+
+    background: #343538;
+    border-radius: 30px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 6px 0px 24px;
+    gap: 8px;
+
+    width: 569px;
+    height: 48px;
+
+    /* Dark/Secondary */
+
+    background: #343538;
+    border-radius: 30px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 1140px;
+    height: 98px;
+    left: 190px;
+    top: 299px;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    width: 950px;
+    height: 18px;
+
+}
+
+.button-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 0px;
+
+    width: 1140px;
+    height: 48px;
+
+}
+
+.socail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 272px;
+    height: 48px;
+}
